@@ -1,0 +1,65 @@
+
+
+.google-image {
+    width: 100px;
+    height: 100px;
+
+    background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.youtube-image {
+    width: 100px;
+    height: 100px;
+    background-image: url("https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2023/11/25-1.png?w=1600&h=900&fit=crop");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.playstore-image{
+width: 100px;
+height: 100px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIkD5j-NFv0mxxNVtXPrgSwafVHD_rOtuq4_RRL_7G2g&s=10");
+background-size: contain;
+background-repeat:no-repeat;
+background-position: centre;
+}
+.pw-image{
+width: 100px;
+height: 100px;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsPPJTx84nqujONE6xGDPWGjwhuKiN6-RoEl7hn5PmSg&s");
+background-size: contain;
+background-repeat:no-repeat;
+background-position: centre;
+}
+.leetcode-image{
+width: 100px;
+height: 100px;
+background-image: url("https://leetcode.com/static/images/LeetCode_Sharing.png");
+background-size: contain;
+background-repeat:no-repeat;
+background-position: centre;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+body {
+    position: relative;
+}
+body{
+    color:white;
+}

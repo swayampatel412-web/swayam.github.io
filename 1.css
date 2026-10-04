@@ -1,0 +1,7 @@
+.google-image {
+    background-image: url("google.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100px;
+}
